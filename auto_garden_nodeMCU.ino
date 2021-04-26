@@ -46,7 +46,7 @@ void setup()
 
 
   WiFi.config(arduino_ip, gateway_ip, subnet_mask);
-  WiFi.begin("Ezhik", "sushimushi"); //Connect to the WiFi network
+  WiFi.begin("****", "*****"); //Connect to the WiFi network
   Serial.println("Connecting to WIFI …");
   while (WiFi.status() != WL_CONNECTED) { //Wait for connection
 
